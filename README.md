@@ -1,5 +1,6 @@
 # 🌷Shop Digital Garden🌷
 
+![Screenshot 10](img/banner.jpg)
 
 ## **Project Summary** ⚡️
 
