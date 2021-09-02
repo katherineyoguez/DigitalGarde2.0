@@ -9,7 +9,9 @@ db.once('open', async () => {
     { name: 'Garden Decor' },
     { name: 'Flower Seeds' },
     { name: 'Indoor Garden' },
-    { name: 'Garden Tools' }
+    { name: 'Garden Tools' },
+    { name: 'Soils' }
+    
   ]);
 
   console.log('categories seeded');
@@ -195,7 +197,43 @@ db.once('open', async () => {
       image: 'wheelbarrow.jpg',
       price: 149.99,
       quantity: 20
-    }
+    },
+    {
+    name: 'Mulch 3pk',
+    category: categories[5]._id,
+    description:
+      'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+    image: 'mulch.jpeg',
+    price: 15.99,
+    quantity: 20
+  },
+  {
+    name: 'Organic Potting Mix',
+    category: categories[5]._id,
+    description:
+      'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+    image: 'organic-potting-mix.jpeg',
+    price: 5.99,
+    quantity: 20
+  },
+  {
+    name: 'Orchid Potting Mix',
+    category: categories[5]._id,
+    description:
+      'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+    image: 'orchid-potting-mix.jpeg',
+    price: 5.99,
+    quantity: 20
+  },
+  {
+    name: 'Bonsai Potting Mix',
+    category: categories[5]._id,
+    description:
+      'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+    image: 'bonsai-potting-mix.jpeg',
+    price: 5.99,
+    quantity: 20
+  },
   ]);
 
   console.log('products seeded');
